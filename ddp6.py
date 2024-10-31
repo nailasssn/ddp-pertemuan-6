@@ -19,3 +19,22 @@ while i < len(numbers):
     if numbers[i] == 553:
       break
     i += 1
+    
+# tugas 2
+
+jumlah = 0
+string = ""
+for i in range(1, 20, 2):
+  jumlah += i
+  string += f"{i}"
+  if i == 19 :
+    string += "+"
+  else :
+    string += "+"
+print(f"{string} {jumlah}")
+
+# tugas 3
+
+b = int(input("masukan jumlah baris"))
+for i in range(1, b+1):
+  print("*"*i)
